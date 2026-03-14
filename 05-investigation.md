@@ -29,32 +29,32 @@
 
 ## Event Description
 
-) Failed password for admin from 192.168.56.1 port XXXX ssh2
+- Failed password for admin from 192.168.56.1 port XXXX ssh2
 	Incorrect password attempt for user "admin". Each line = one failed attempt in a parallel connection.
 
-) error: maximum authentication attempts exceeded for admin from 192.168.56.1 port 42290 ssh2 [preauth]
+- error: maximum authentication attempts exceeded for admin from 192.168.56.1 port 42290 ssh2 [preauth]
 	OpenSSH detected that the maximum number of authentication attempts for this connection was exceeded.
 
-) Disconnecting authenticating user admin 192.168.56.1 port 42290: Too many authentication failures [preauth]
+- Disconnecting authenticating user admin 192.168.56.1 port 42290: Too many authentication failures [preauth]
 	Connection closed due to too many authentication failures in this specific session.
 
-) PAM 4 more authentication failures; ... user=admin
+- PAM 4 more authentication failures; ... user=admin
 	PAM (Pluggable Authentication Modules) logged additional accumulated failure).
 
-) PAM service(sshd) ignoring max retries; 5 > 3
+- PAM service(sshd) ignoring max retries; 5 > 3
 	PAM is ignoring the configured retry limit (likely pam_tally or faillock with deny=3) because the number of failures (5) already exceeds the limit (3). Common when multiple parallel connections accumulate failures.
 
-) pam_unix(sshd:auth): authentication failure; ... user=admin
+- pam_unix(sshd:auth): authentication failure; ... user=admin
 	Authentication failure recorded by the pam_unix module (local password check).
 
-) Connection closed by authenticating user admin 192.168.56.1 port XXXX [preauth]
+- Connection closed by authenticating user admin 192.168.56.1 port XXXX [preauth]
 	Connection closed (usually after exceeding attempts or client gave up).
 
-) Accepted password for archlinux from 192.168.56.1 port 42306 ssh2
+- Accepted password for archlinux from 192.168.56.1 port 42306 ssh2
 	Correct password accepted on this connection (port 42306). Successful login.
 
-) pam_unix(sshd:session): session opened for user admin(uid=1000) by archlinux(uid=0)
+- pam_unix(sshd:session): session opened for user admin(uid=1000) by archlinux(uid=0)
 	SSH session opened for user archlinux (UID 1000). "by archlinux" indicates the sshd process was started/handled under user archlinux (likely root or sudo context).
 
-) systemd-logind[631]: New session 100 of user archlinux.
+- systemd-logind[631]: New session 100 of user archlinux.
 	systemd-logind registered a new login session.
