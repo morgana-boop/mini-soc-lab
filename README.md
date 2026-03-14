@@ -78,22 +78,6 @@ Observed attacker techniques are mapped to industry-standard adversary behavior 
 
 ---
 
-## Repository Structure
-
-
-mini-soc-lab/
-├── architecture
-├── detections
-├── investigation
-├── incident-report
-├── attack-scenarios
-├── evidence
-├── diagrams
-└── queries
-
-
----
-
 ## Purpose of This Project
 
 This lab serves as a practical cybersecurity artifact demonstrating the ability to:
